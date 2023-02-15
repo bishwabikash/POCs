@@ -1,3 +1,4 @@
 <?php
- exec("hostname");
+$output = shell_exec('hostname');
+echo "<pre>$output</pre>";
 ?>
